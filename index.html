@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result-Summary-Component</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./results-summary-component-main/assets/images/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-state">
+        <h2 class="head-1">Your Result</h2>
+        <div class="percent">
+          <h2 class="head-number">76</h2>
+          <p class="head-percent">of 100</p>
+        </div>
+        <h2 class="result-head">Great</h2>
+        <p class="result-text">
+          You scored higher than <span id="rate">65%</span> of the people who
+          have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary-state">
+        <h2 class="head-2">Summary</h2>
+        <div class="reaction">
+          <div class="left">
+            <img
+              src="./results-summary-component-main/assets/images/icon-reaction.svg"
+              alt=""
+            />
+            <p>Reaction</p>
+          </div>
+          <div class="right">
+            <p><span class="number">80</span> / 100</p>
+          </div>
+        </div>
+
+        <div class="memory">
+          <div class="left">
+            <img
+              src="./results-summary-component-main/assets/images/icon-memory.svg"
+              alt=""
+            />
+            <p>Memory</p>
+          </div>
+          <div class="right">
+            <p><span class="number">92</span> / 100</p>
+          </div>
+        </div>
+
+        <div class="verbal">
+          <div class="left">
+            <img
+              src="./results-summary-component-main/assets/images/icon-verbal.svg"
+              alt=""
+            />
+            <p>Verbal</p>
+          </div>
+          <div class="right">
+            <p><span class="number">61</span> / 100</p>
+          </div>
+        </div>
+
+        <div class="visual">
+          <div class="left">
+            <img
+              src="./results-summary-component-main/assets/images/icon-visual.svg"
+              alt=""
+            />
+            <p>Visual</p>
+          </div>
+          <div class="right">
+            <p><span class="number">72</span> / 100</p>
+          </div>
+        </div>
+
+        <button id="btn" type="submit" class="btn">Continue</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
